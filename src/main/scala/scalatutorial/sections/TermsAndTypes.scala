@@ -92,7 +92,7 @@ object TermsAndTypes extends ScalaTutorialSection {
    *
    */
   def evaluation(res0: Int, res1: String): Unit = {
-    1 + 2 shouldBe res0
+    1 + 2 shouldBe res0 = 3
     "Hello, " ++ "Scala!" shouldBe res1
   }
 
